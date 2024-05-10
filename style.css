@@ -1,0 +1,256 @@
+.Main {
+  margin: auto;
+  width: 70%;
+  border: 1px solid black;
+  padding: 10px;
+  height: 870px;
+  background-color: 	#BEBEBE;
+}
+
+.mypic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.First {
+  font-size: 25;
+  font-weight: bold;
+  font-family:'Arial';
+  text-align: center;
+}
+
+.Second {
+  font-size: 30;
+  font-weight: bold;
+  font-family:'Times New Roman';
+  text-align: center;
+}
+
+.image {
+  background-color: 	#DCDCDC;
+  margin-right: auto;
+  width: 50% ;
+  height: 870px;
+  float: left;
+}
+
+.Contacts {
+  font-size: 20px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.logo {
+  width: 5%;
+  padding-left: 10px;
+  float: left;
+}
+
+.number {
+  padding-left: 50px;
+}
+
+.logo1 {
+  width: 5%;
+  padding-left: 10px;
+  float: left;
+}
+
+.email {
+  padding-left: 50px;
+}
+
+.logo2 {
+  width: 5%;
+  padding-left: 10px;
+  float: left;
+}
+
+.location {
+  padding-left: 50px;
+}
+
+.Educ {
+  font-size: 20px;
+  font-family:'Times New Roman';
+  padding-left: 10px;
+  font-style: italic;
+
+}
+
+.junior {
+  font-size: 15px;
+  font-family: 'Tims New Roman';
+  padding-left: 25px;
+}
+
+.juniors {
+  font-size: 13px;
+  font-family: 'Tims New Roman';
+  padding-left: 40px;
+}
+
+.highh {
+  font-size: 15px;
+  font-family: 'Tims New Roman';
+  padding-left: 25px;
+}
+
+.highhs {
+  font-size: 13px;
+  font-family: 'Tims New Roman';
+  padding-left: 40px;
+}
+
+.college {
+  font-size: 15px;
+  font-family: 'Tims New Roman';
+  padding-left: 25px;
+}
+
+.colleges {
+  font-size: 13px;
+  font-family: 'Tims New Roman';
+  padding-left: 40px;
+}
+
+.image2 {
+  background-color: #BEBEBE;
+  margin-left: auto;
+  width: 45% ;
+  height: 810px;
+  float: right;
+}
+
+.personals {
+  font-style: italic;
+  font-family: 'Times New Roman';
+  font-size: 25px;
+}
+
+.skill {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-size: 25px;
+}
+
+.achieve {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 800px){
+  .number {
+    font-size: 9px;
+  }
+
+  .email {
+    font-size: 9px;
+  }
+
+  .location {
+    font-size: 9px;
+  }
+
+  .First {
+    font-size: 15px;
+  }
+
+  .image {
+    background-color: #F5F5F5;
+  }
+
+  .Main {
+    background-color:#808080;
+  }
+
+  .image2 {
+    background-color:#808080;
+  }
+
+  .Second {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 7%;
+  }
+
+  .logo1 {
+    width: 7%;
+  }
+
+  .logo2 {
+    width: 7%;
+
+  }
+
+  .number {
+    font-size: 15px;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .location {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image2 {
+    float: left;
+    width: 100%;
+    background-color: #BEBEBE;
+    
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .Main {
+    height: 1800px;
+    background-color:#BEBEBE;
+  }
+
+  .junior {
+    font-size: 20px;
+  }
+
+  .juniors {
+    font-size: 20px;
+  }
+
+  .highh {
+    font-size: 20px;
+  }
+
+  .highhs {
+    font-size: 20px;
+  }
+
+  .college {
+    font-size: 20px;
+  }
+
+  .colleges {
+    font-size: 20px;
+  }
+
+  .First {
+    font-size: 25px;
+  }
+
+  .Second {
+    font-size: 25px;
+  }
+}
